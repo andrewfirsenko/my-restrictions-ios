@@ -11,19 +11,3 @@ strings:
     - templateName: structured-swift5
       output: Generated/Strings+Generated.swift
 
-xcassets:
-  inputs:
-    - .
-  outputs:
-    - templateName: swift5
-      params:
-        forceProvidesNamespaces: true
-      output: Generated/XCAssets+Generated.swift
-
-fonts:
-  inputs:
-    - Fonts
-  outputs:
-    - templateName: swift5
-      output: Generated/Fonts+Generated.swift
-

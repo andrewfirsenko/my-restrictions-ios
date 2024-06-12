@@ -21,6 +21,7 @@ targets:
         PRODUCT_BUNDLE_PACKAGE_TYPE: 'APPL'
         PRODUCT_BUNDLE_IDENTIFIER: 'com.andrewfirsenko.myrestrictions'
         PRODUCT_BUNDLE_NAME: 'Template App'
+        ENABLE_USER_SCRIPT_SANDBOXING: false
     sources:
       - path: MyRestrictions
     preBuildScripts:

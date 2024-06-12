@@ -1,7 +1,9 @@
 /* 
   Localizable.strings
-  TemplateApp
+  MyRestrictions
 
   Created by Andrey Firsenko on 12.06.2024.
   
 */
+
+MyRestrictions = "My Restrictions";
