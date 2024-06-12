@@ -1,4 +1,4 @@
-name: TemplateApp
+name: MyRestrictions
 
 options:
   minimumXcodeGenVersion: 2.38.0
@@ -8,21 +8,21 @@ options:
   groupSortPosition: top
     
 targets:
-  TemplateApp:
+  MyRestrictions:
     type: application
     platform: iOS
     deploymentTarget: 16.0
     settings:
       base:
-        INFOPLIST_FILE: TemplateApp/Info.plist
+        INFOPLIST_FILE: MyRestrictions/Info.plist
         MARKETING_VERSION: 1.0
         CURRENT_PROJECT_VERSION: 1
         TARGETED_DEVICE_FAMILY: 1 # supports iPhone(1)
         PRODUCT_BUNDLE_PACKAGE_TYPE: 'APPL'
-        PRODUCT_BUNDLE_IDENTIFIER: 'com.andrewfirsenko.templateapp'
+        PRODUCT_BUNDLE_IDENTIFIER: 'com.andrewfirsenko.myrestrictions'
         PRODUCT_BUNDLE_NAME: 'Template App'
     sources:
-      - path: TemplateApp
+      - path: MyRestrictions
     preBuildScripts:
       - path: scripts/swiftgen.sh
         name: SwiftGen

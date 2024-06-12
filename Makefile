@@ -9,7 +9,7 @@ pod:
 
 ## Open Project
 start:
-	open TemplateApp.xcworkspace
+	open MyRestrictions.xcworkspace
 
 ## Clean DerivedData
 clean:

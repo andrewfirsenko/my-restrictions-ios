@@ -1,8 +1,8 @@
 # SwiftGen Build Phases
 # "$PODS_ROOT"/SwiftGen/bin/swiftgen
 
-input_dir: TemplateApp/Resources/
-output_dir: TemplateApp/Resources/
+input_dir: MyRestrictions/Resources/
+output_dir: MyRestrictions/Resources/
 
 strings:
   inputs:

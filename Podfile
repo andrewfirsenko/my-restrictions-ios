@@ -2,7 +2,7 @@
 # Минимальная поддерживаемая версия iOS
 platform :ios, '16.0'
 
-target 'TemplateApp' do
+target 'MyRestrictions' do
   use_frameworks!
 
   pod 'SwiftGen'
